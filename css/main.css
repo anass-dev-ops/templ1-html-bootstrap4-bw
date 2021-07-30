@@ -1,0 +1,41 @@
+/* Created by: Anass Laaribi */
+
+/* ========== Start Home ========== */
+.home {
+    height: 100vh;
+    position: relative;
+}
+
+.home .nav-part {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.home .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../assets/img/bg-masthead.jpg);
+}
+
+.home .header-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: #000000bf; 
+}
+
+.home .header-box .flex-box1 {
+    height: 100%;
+}
