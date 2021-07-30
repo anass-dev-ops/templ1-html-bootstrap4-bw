@@ -1,5 +1,14 @@
 /* Created by: Anass Laaribi */
 
+/* ========== General CSS ========= */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+:root {
+    --color1: rgb(43, 43, 43);
+    --color2: rgb(230, 230, 230);
+}
+
 /* ========== Start Home ========== */
 .home {
     height: 100vh;
@@ -33,9 +42,59 @@
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-color: #000000bf; 
+    background-color: #000000bf;
 }
 
 .home .header-box .flex-box1 {
     height: 100%;
+}
+
+.home .header-box .flex-box1 h1 {
+    font-size: 3.2rem;
+    max-width: 700px;
+}
+
+.home .header-box .flex-box1 p {
+    max-width: 700px;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.home .header-box .flex-box1 button {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 60px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.home .header-box .flex-box1 button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* ===== Start started ===== */
+
+.started {
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 80px;
+}
+.started h3 {
+    font-size: 2rem;
+    margin: 0 0 20px;
+}
+.started button {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    padding: 8px 40px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.started button:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+    border: 2px solid var(--color2);
 }
