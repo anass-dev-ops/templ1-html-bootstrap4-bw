@@ -1,6 +1,9 @@
-/* Created by: Anass Laaribi */
+/* 
+    Created by: Anass Laaribi
+    GitHub: anass-dev-ops
+*/
 
-/* ========== General CSS ========= */
+/* ========== Start General CSS ========= */
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -8,7 +11,7 @@ body {
     --color1: rgb(43, 43, 43);
     --color2: rgb(230, 230, 230);
 }
-
+/* ========== End General CSS ========= */
 /* ========== Start Home ========== */
 .home {
     height: 100vh;
@@ -161,3 +164,38 @@ body {
     border: 2px solid var(--color1);
 }
 /* ===== End Download ===== */
+/* ===== Start Contact ===== */
+.contact {
+    padding: 80px 0;
+}
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.contact p {
+    font-size: 1.08rem;
+}
+.contact button {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    padding: 8px 40px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.contact button:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+    border: 2px solid var(--color2);
+}
+.contact .sec-phone {
+    padding: 50px 0;
+}
+.contact .sec-phone i {
+    font-size: 4.5rem;
+}
+.contact .sec-phone h6 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+/* ===== End Contact ===== */
