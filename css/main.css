@@ -14,7 +14,6 @@ body {
     height: 100vh;
     position: relative;
 }
-
 .home .nav-part {
     position: absolute;
     left: 0;
@@ -22,7 +21,6 @@ body {
     width: 100%;
     z-index: 3;
 }
-
 .home .overlay {
     position: absolute;
     left: 0;
@@ -33,7 +31,6 @@ body {
     background-size: cover;
     background-image: url(../assets/img/bg-masthead.jpg);
 }
-
 .home .header-box {
     position: absolute;
     left: 0;
@@ -44,22 +41,18 @@ body {
     background-size: cover;
     background-color: #000000bf;
 }
-
 .home .header-box .flex-box1 {
     height: 100%;
 }
-
 .home .header-box .flex-box1 h1 {
     font-size: 3.2rem;
     max-width: 700px;
 }
-
 .home .header-box .flex-box1 p {
     max-width: 700px;
     font-size: 1.2rem;
     margin: 20px 0;
 }
-
 .home .header-box .flex-box1 button {
     background-color: #fff;
     border: 2px solid #fff;
@@ -67,7 +60,6 @@ body {
     border-radius: 25px;
     margin-top: 10px;
 }
-
 .home .header-box .flex-box1 button:hover {
     background-color: rgba(255, 255, 255, 0);
     color: #fff;
@@ -75,7 +67,6 @@ body {
 }
 
 /* ===== Start started ===== */
-
 .started {
     background-color: var(--color2);
     color: var(--color1);
@@ -98,3 +89,55 @@ body {
     color: var(--color2);
     border: 2px solid var(--color2);
 }
+/* ===== End started ===== */
+/* ===== Start services ===== */
+.services {
+    padding: 80px 0
+}
+.services h2{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.services i{
+    font-size: 4rem;
+    color: var(--color1);
+    margin-bottom: 10px;
+}
+.services h4{
+    font-size: 1.6rem;
+}
+.services p{
+    font-size: 1.08rem;
+}
+/* ===== End services ===== */
+/* ===== Start projects ===== */
+.projects {
+
+}
+.projects .row {
+    padding: 0;
+    margin: 0;
+}
+.projects .row div {
+    background-size: cover;
+    height: 200px;
+}
+.projects .row div:first-child {
+    background-image: url(../assets/img/portfolio/thumbnails/1.jpg);
+}
+.projects .row div:nth-child(2) {
+    background-image: url(../assets/img/portfolio/thumbnails/2.jpg);
+}
+.projects .row div:nth-child(3) {
+    background-image: url(../assets/img/portfolio/thumbnails/3.jpg);
+}
+.projects .row div:nth-child(4) {
+    background-image: url(../assets/img/portfolio/thumbnails/4.jpg);
+}
+.projects .row div:nth-child(5) {
+    background-image: url(../assets/img/portfolio/thumbnails/5.jpg);
+}
+.projects .row div:nth-child(6) {
+    background-image: url(../assets/img/portfolio/thumbnails/6.jpg);
+}
+/* ===== End projects ===== */
